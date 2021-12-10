@@ -7,8 +7,8 @@ export const Container = styled.div`
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    width: 25rem;
-    height: 25rem;
+    width: 27rem;
+    height: 27rem;
     background-color: #B8CDE5;
     border-radius: 7%;
 

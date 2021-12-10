@@ -19,7 +19,6 @@ export const Container = styled.nav`
 
     a:hover {
         cursor: pointer;
-        color: grey;
         text-decoration: underline;
     }
 

@@ -1,9 +1,6 @@
-import {
-    Container
-} from './styles'
-
-import Logo from '../../assets/logo.png'
-import Login from '../../assets/login.png'
+import {Container} from './styles'
+import Logo from '../../assets/Logo.png'
+import Login from '../../assets/Login.png'
 
 
 const Main_navbar = () => {
