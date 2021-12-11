@@ -1,7 +1,6 @@
 import { Background, Container } from "./style";
 import Input from '../../components/Input/';
 
-
 const Login = () => {
 
     return (
