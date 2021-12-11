@@ -1,7 +1,7 @@
-import Product_Container from "../../components/Product_Container";
 import {Background} from "./style";
+import Products from "../../components/Products";
 
-export const Menu = () => {
+export const Menu = ({products}) => {
     return (
         <>
             <Background>
@@ -9,29 +9,7 @@ export const Menu = () => {
                     <div class="titulo"> 
                         <h1>PIZZAS SALGADAS</h1>
                     </div>
-                    <div class="Product_Container">
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                    </div>
-
-                    <div class="titulo"> 
-                        <h1>PIZZAS DOCES</h1>
-                    </div>
-                    <div class="Product_Container">
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                        <Product_Container/>
-                    </div>
+                    <Products products={products} />
                 </div>
                 
                 
