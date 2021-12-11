@@ -4,6 +4,7 @@ import './Global.css'
 import Login from "./Pages/Login";
 import Cadastro from "./Pages/Cadastro";
 import Contact from "./Pages/Contact";
+import Sales from "./Pages/Sales"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Main_navbar/>
       {/* <Login /> */}
       {/* <Cadastro /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <Sales />
       <Footer />
     </>
   );
