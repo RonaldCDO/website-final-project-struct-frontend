@@ -7,9 +7,20 @@ import Contact from "./Pages/Contact";
 import Menu from "./Pages/Menu";
 import Sales from "./Pages/Sales";
 import Main from "./Pages/Main";
+import { useEffect, useState } from "react";
+import { api } from "./services/api";
 
 
 function App() {
+  
+  const [products, setProducts] = useState ([])
+
+  useEffect(() => {
+    api.get('/products/index').then((response) => {
+      setProducts(response.data)
+    })
+  }, [])
+
   return (
     <>
       <Main_navbar/>
@@ -18,7 +29,7 @@ function App() {
       {/* <Contact /> */}
       {/* <Main/> */}
       {/*<Sales />*/}
-      <Menu/>
+      <Menu products={products} />
       <Footer />
     </>
   );

@@ -1,11 +1,11 @@
 import { Container } from "./style";
 
-const Product_Container = () => {
+const Product_Container = ({name, price}) => {
     return (
         <Container>
             <img src={'https://source.unsplash.com/random?profile'} alt = "Pizza"/>
-            <span>Frango c/ catupiry</span>
-            <span>R$30.00</span>
+            <span>{name}</span>
+            <span>{price}</span>
         </Container>
     )
 }
