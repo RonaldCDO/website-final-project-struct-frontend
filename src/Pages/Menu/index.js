@@ -32,6 +32,11 @@ export const Menu = ({products}) => {
                     </div>
                     <Products products={products} type_id="5" />
 
+                    <div class="titulo"> 
+                        <h1>COMBOS</h1>
+                    </div>
+                    <Products products={products} type_id="6" />
+
                 </div>
                 
             </Background>
