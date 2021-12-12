@@ -14,7 +14,7 @@ const Products = ({products, type_id}) => {
     return (
         <Container>
              {arr.map((item, index) => (
-                 <Product_Container key={index} index={index} name={item.name} price={item.price}/>
+                 <Product_Container key={index} index={index} name={item.name} price={item.price} photo={item.photo_url}/>
              ))}    
 
             {/* pq funcionou com parenteses ao inves de {} */}
