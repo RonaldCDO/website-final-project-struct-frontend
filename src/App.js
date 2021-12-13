@@ -16,10 +16,13 @@ function App() {
   const [products, setProducts] = useState ([])
 
   useEffect(() => {
-    api.get('/products/index').then((response) => {
-      setProducts(response.data)
-    })
+    fetchProducts()
   }, [])
+
+  const fetchProducts = async () => {
+    const response = await api.get('/products/index')
+    setProducts(response.data)
+  }
 
   return (
     <>
