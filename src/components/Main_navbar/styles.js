@@ -17,6 +17,14 @@ export const Container = styled.nav`
         
     }
 
+    span{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 0.5rem;
+        
+    }
+
     a:hover {
         cursor: pointer;
         text-decoration: underline;
@@ -31,6 +39,7 @@ export const Container = styled.nav`
         display: flex;
         justify-content: space-between;
         width: 40rem;
+        margin-right: 13rem;
 
     }
 
@@ -46,6 +55,16 @@ export const Container = styled.nav`
         height: 2.25rem;
         border-radius: 50%;
 
+    }
+
+    .Logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .batata:hover{
+        text-decoration:none;
     }
 `;
     

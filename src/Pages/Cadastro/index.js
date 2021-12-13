@@ -1,5 +1,6 @@
 import { Background, Container } from "./style";
 import Input from '../../components/Input';
+import { Link } from "react-router-dom";
 
 const Cadastro = () => {
 
@@ -16,7 +17,7 @@ const Cadastro = () => {
                     <Input placeholder="confirmar senha" format="Cadastro"/>
                 </div>
                 <button>Cadastrar</button>
-                <a> Já possui uma conta? Faça login.</a>
+                <Link to='/Login'> Já possui uma conta? Faça login.</Link>
             </Container>
         </Background>
 

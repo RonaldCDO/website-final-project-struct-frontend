@@ -11,6 +11,7 @@ export const Container = styled.section`
     height: 44.25rem;
     /* background-color: #B8CDE5; */
     border-radius: 7%;
+    margin-top: 7 rem;
  
     .line_one{
         display: flex;
@@ -85,7 +86,6 @@ export const Container = styled.section`
         color: white;
     }
 
-    } 
 
 `;
 export const Background = styled.section`
