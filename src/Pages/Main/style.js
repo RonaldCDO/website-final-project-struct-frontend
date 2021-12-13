@@ -85,7 +85,6 @@ export const Container = styled.section`
         color: white;
     }
 
-    } 
 
 `;
 export const Background = styled.section`

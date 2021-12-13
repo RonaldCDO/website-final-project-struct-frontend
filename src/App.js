@@ -9,6 +9,8 @@ import Sales from "./Pages/Sales";
 import Main from "./Pages/Main";
 import { useEffect, useState } from "react";
 import { api } from "./services/api";
+import { BrowserRouter } from "react-router-dom";
+import Rotas from "./routes";
 
 
 function App() {
@@ -22,16 +24,17 @@ function App() {
   }, [])
 
   return (
-    <>
+    <BrowserRouter>
       <Main_navbar/>
-      {/* <Login /> */}
-      {/* <Cadastro /> */}
-      {/* <Contact /> */}
-      {/* <Main/> */}
-      {/*<Sales />*/}
+      <Rotas />
+      {/* <Login />
+      <Cadastro />
+      <Contact />
+      <Main/>
+      <Sales />
       <Menu products={products} />
-      <Footer />
-    </>
+      <Footer /> */}
+    </BrowserRouter>
   );
 }
 
