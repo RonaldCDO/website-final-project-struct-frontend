@@ -31,7 +31,7 @@ export const Container = styled.nav`
     }
 
     div {
-       margin: auto 1rem auto 1rem;
+       margin: auto 1rem auto 0.2rem;
         
     }
 

@@ -2,16 +2,15 @@ import styled from "styled-components"
 import Fundo from '../../assets/fundo.jpeg'
 
 export const Container = styled.section`
-    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 45rem;
-    height: 44.25rem;
-    /* background-color: #B8CDE5; */
+    height: 44.25rem;/
     border-radius: 7%;
-    margin-top: 7 rem;
+    margin-top: 7rem;
+    margin-bottom:4rem;
  
     .line_one{
         display: flex;
@@ -76,7 +75,6 @@ export const Container = styled.section`
     }
 
     .div-five{
-        /* margin-top: 0.5rem; */
         font-size: 1.05rem;
         width: 45rem;
         height: 13.5rem;
@@ -86,6 +84,24 @@ export const Container = styled.section`
         color: white;
     }
 
+    .m-image-one {
+        width: 30rem;
+        height: 13.5rem;
+        border-radius: 15px;
+    }
+
+    .m-image-two {
+        width: 14.0rem;
+        height: 13.5rem;
+        border-radius: 15px;
+    }
+
+    .m-image-three {
+        width: 45rem;
+        height: 13.5rem;
+        border-radius: 15px;
+    }
+
 
 `;
 export const Background = styled.section`
@@ -93,12 +109,11 @@ export const Background = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
     background: url('${Fundo}') no-repeat;
     background-size: cover;
-    
     
     img {
         width: 13rem;

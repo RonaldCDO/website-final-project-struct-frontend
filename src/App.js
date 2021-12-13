@@ -14,17 +14,6 @@ import Rotas from "./routes";
 
 
 function App() {
-  
-  const [products, setProducts] = useState ([])
-
-  useEffect(() => {
-    fetchProducts()
-  }, [])
-
-  const fetchProducts = async () => {
-    const response = await api.get('/products/index')
-    setProducts(response.data)
-  }
 
   return (
     <BrowserRouter>
