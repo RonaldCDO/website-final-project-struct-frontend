@@ -27,13 +27,7 @@ function App() {
     <BrowserRouter>
       <Main_navbar/>
       <Rotas />
-      {/* <Login />
-      <Cadastro />
-      <Contact />
-      <Main/>
-      <Sales />
-      <Menu products={products} />
-      <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

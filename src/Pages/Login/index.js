@@ -1,5 +1,6 @@
 import { Background, Container } from "./style";
 import Input from '../../components/Input/';
+import { Link } from "react-router-dom";
 
 const Login = () => {
 
@@ -12,7 +13,7 @@ const Login = () => {
                     <Input placeholder="senha" type="text" format="Login" />
                 </div>
                 <button> Enviar </button>
-                <a> Ainda não possui uma conta? Crie agora</a>
+                <Link to='/Cadastro'>Ainda não possui uma conta? Crie agora</Link>
             </Container>
         </Background>
     );
